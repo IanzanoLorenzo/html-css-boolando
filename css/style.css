@@ -9,7 +9,7 @@ body{
 }
  
 .container{
-    width: 1070px;
+    width: 1180px;
     margin: auto;
 }
 
@@ -93,5 +93,55 @@ main .container{
 
 .content:hover .second-img{
     display: block;
+}
+
+.labels-row{
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    width: fit-content;
+}
+
+/* labels */
+    .label{
+        color: white;
+        font-size: 13px;
+        padding: 5px 10px;
+        font-weight: 700;
+    }
+
+    .discount{
+        background-color: red;
+        margin-right: 2px;
+    }
+
+    .eco{
+        background-color: green;
+    }
+
+.heart{
+    background-color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.price, .productor{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.price{
+    color: red;
+    font-weight: 800;
+}
+
+.price>span{
+    color: gainsboro;
+    text-decoration: line-through;
 }
 
