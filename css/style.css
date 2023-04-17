@@ -31,6 +31,8 @@ body{
 nav{
     width: 100%;
     position: fixed;
+    left: 0;
+    top: 0;
     background-color: #ff6900;
     display: flex;
     align-items: stretch;
@@ -55,5 +57,41 @@ nav .row{
 
 .logo{
     width: 130px;
+}
+
+/* main */
+
+main .container{
+    margin-top: 130px;
+}
+
+.col-33{
+    width: calc(100% / 3 - 10px);
+    margin: 0 5px 60px 5px;
+}
+
+.content{
+    position: relative;
+}
+
+.content img{
+    width: 100%;
+}
+
+.first-img{
+    display: block;
+}
+
+
+.second-img{
+    display: none;
+}
+
+.content:hover .first-img{
+    display: none;
+}
+
+.content:hover .second-img{
+    display: block;
 }
 
