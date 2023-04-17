@@ -23,6 +23,10 @@ body{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 /* header */
 
@@ -41,7 +45,6 @@ nav{
 }
 
 nav a{
-    text-decoration: none;
     color: white;
     font-size: 15px;
     font-weight: 700;
@@ -97,7 +100,7 @@ main .container{
 
 .labels-row{
     position: absolute;
-    bottom: 45px;
+    bottom: 80px;
     left: 0;
     width: fit-content;
 }
@@ -145,3 +148,33 @@ main .container{
     text-decoration: line-through;
 }
 
+footer{
+    background-color: #1a1a1a;
+    width: 100%;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .row{
+    justify-content: space-between;
+}
+
+footer .col{
+    display: inline-block;
+}
+
+.fa-brands{
+    margin-left: 5px;
+}
+
+footer a {
+    color: inherit;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+/* bonus */
+
+/* .heart:hover{
+    color: red;
+} */
