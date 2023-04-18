@@ -73,10 +73,6 @@ main .container{
     margin: 0 5px 60px 5px;
 }
 
-.content{
-    position: relative;
-}
-
 .content img{
     width: 100%;
 }
@@ -96,6 +92,10 @@ main .container{
 
 .content:hover .second-img{
     display: block;
+}
+
+.card{
+    position: relative;
 }
 
 .labels-row{
@@ -124,13 +124,15 @@ main .container{
 
 .heart{
     background-color: white;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     top: 10px;
     right: 0;
     width: 50px;
     height: 50px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .price, .productor{
